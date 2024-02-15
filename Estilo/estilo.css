@@ -1,0 +1,75 @@
+html{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: gray;
+}
+
+
+.container{
+    background-color: #f5f5f5;
+    max-width: 800px;
+    margin: 60px auto;
+    height: 1400px;
+    padding: 20px;
+    box-shadow: 0 2px 20px rgb(0,0,0,0.3);
+    overflow: scroll;
+}
+
+.header{
+    text-align: center;
+}
+
+.img-area{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 25px auto;
+    border: 15px groove deepskyblue;
+}
+
+.img-area img{
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left{
+    flex: 1;
+    padding: 30px;
+}
+
+.left p{
+    line-height: 2;
+}
+
+.left ul li{
+    line-height: 2;
+}
+
+h2{
+    background: #00b6c4;
+    padding: 15px;
+    color: #fff;
+    margin: 30px 0;
+    font-size: 20px;
+    border-radius: 0 50px 50px 0;
+}
+
+.right{
+    flex: 1;
+    padding: 30px;
+}
+
+.right p{
+    line-height: 2.9;
+}
+
+.right ul li{
+    line-height: 2;
+}
